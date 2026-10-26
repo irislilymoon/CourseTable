@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 暗色模式启动背景 = Material3 暗色 surface(#1C1B1F), 避免暗色用户冷启动闪白 -->
+    <color name="launch_bg">#1C1B1F</color>
+</resources>

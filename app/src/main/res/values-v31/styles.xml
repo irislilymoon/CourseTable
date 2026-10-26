@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 31+: 冷启动起始窗口走系统 Splash(不看 windowBackground), 背景色需用
+         windowSplashScreenBackground 指定; @color/launch_bg 带 values-night 变体,
+         深色模式下启动画面自动用暗色底 -->
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/launch_bg</item>
+        <item name="android:windowSplashScreenBackground">@color/launch_bg</item>
+    </style>
+</resources>

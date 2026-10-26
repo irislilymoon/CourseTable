@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Android / 本机配置
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 签名密钥与构建产物（不入库）
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# 本地备份目录
+backup-*/
+
+# 系统杂项
+.DS_Store
+Thumbs.db
